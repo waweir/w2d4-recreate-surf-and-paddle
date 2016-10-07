@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box; }
+
+.margin0 {
+  margin: 0; }
+
+.darkBlue {
+  color: #083452; }
+
+.lightBlue {
+  color: #106db3; }
+
+.darkGray {
+  color: #5E686F; }
+
+.lightGray {
+  color: #AEBCC6; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+.column {
+  flex-direction: column; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.spc_font {
+  font-family: 'Istok Web', sans-serif; }
+
+.heading_font {
+  font-family: 'Oswald', sans-serif; }
+
+.text_font {
+  font-family: 'Asap', sans-serif; }
+
+a {
+  color: #AEBCC6;
+  text-decoration: underline; }
+  a:hover {
+    color: #106db3; }
+
+.header {
+  height: 75vh;
+  background-image: linear-gradient(rgba(16, 109, 179, 0.9), rgba(16, 109, 179, 0.9)), url(../img/waves.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.headerbar {
+  padding: 10px 5px;
+  font-size: 18px; }
+
+.bar_right {
+  font-size: 20px;
+  font-weight: bold; }
+  .bar_right a {
+    text-decoration: none;
+    color: #083452;
+  }
+  .bar_right a:hover {
+    color: #AEBCC6;
+  }
+#logo {
+  width: 60px; }
+
+#blog {
+  font-size: 16px; }
+
+#search {
+  transform: scaleX(-1);
+  height: 22px;
+  padding-bottom: 5px;
+}
+.high {
+  height: 100%;
+  padding-bottom: 70px; }
+
+#header_big {
+  color: #ffffff;
+  font-size: 100px;
+  text-shadow: 1px 2px #083452;
+}
+
+#header_small {
+  font-size: 16px;
+  margin-top: -10px; }
+
+main {
+  margin-top: 40px; }
+
+.border {
+  border: 2px solid black; }
+
+.headline {
+  font-size: 60px; }
+
+#profile {
+  margin-bottom: 10px; }
+
+#social_media_list {
+  list-style: none;
+  padding: 0 15px; }
+  #social_media_list li {
+    flex: 1;
+    margin-top: 5px;
+    padding: 0 5px;
+    border-left: 1px solid #eee; }
+    #social_media_list li:first-child {
+      border-left: none; }
+    #social_media_list li a {
+      text-decoration: none; }
+
+.main_padding {
+  padding: 10px 50px 10px 10px; }
+
+#sidebar {
+  margin-top: 40px; }
+
+#ad_section {
+  width: 100%; }
+  #ad_section a {
+    flex: 1;
+    justify-content: flex-end; }
+
+#ad {
+  height: 275px;
+  flex: 1;
+  max-width: 300px;
+  background-image: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(../img/paddle-board.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 0; }
+
+#ad_link {
+  display: block;
+  width: 350px;
+  margin-top: -15px; }
+  #ad_link a {
+    text-decoration: underline; }
+    #ad_link a:hover {
+      color: #106db3; }
+
+#small_profile {
+  height: 20px; }
+
+#date {
+  margin-left: 10px; }
+  #date a {
+    text-decoration: underline; }
+    #date a:hover {
+      color: #106db3; }
+
+#main_text {
+  padding-top: 30px; }
+  #main_text p {
+    margin-bottom: 20px; }
+
+blockquote {
+  border-left: 3px solid #eee; }
+  blockquote h3 {
+    font-size: 30px; }
+
+.btn-group {
+  margin-right: 5px;
+  margin-top: 5px; }
+  .btn-group img {
+    height: 16px;
+  }
+  .btn-group a {
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+    font-size: 12px; }
+    .btn-group a:first-child {
+      background-color: #5E686F;
+      padding: 6px; }
+    .btn-group a:last-child {
+      background-color: #AEBCC6; }
+  .btn-group:hover a {
+    color: white; }
+    .btn-group:hover a:first-child {
+      background-color: #083452; }
+    .btn-group:hover a:last-child {
+      background-color: #106db3; }
+
+footer {
+  border-top: 2px solid #eee;
+  margin-top: 40px; }
+
+#popular {
+  padding: 40px 0; }
+
+.footer {
+  background-color: #083452;
+  height: 100px; }
+
+.footer_item {
+  flex: 1; }
+
+.footer_pics {
+  margin: 0;
+  flex: 1;
+  height: 325px;
+  position: relative; }
+  .footer_pics h2 {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    margin: 0;
+    padding-right: 45px; }
+
+#pic1 {
+  background-image: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(../img/surfing.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+  #pic1:hover {
+    background-image: url(../img/surfing.jpeg); }
+    #pic1:hover h2 {
+      color: white; }
+
+#pic2 {
+  background-image: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(../img/beer.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+  #pic2:hover {
+    background-image: url(../img/beer.jpg); }
+    #pic2:hover h2 {
+      color: white; }
+
+#pic3 {
+  background-image: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(../img/zach_galifianakis.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+  #pic3:hover {
+    background-image: url(../img/zach_galifianakis.jpg); }
+    #pic3:hover h2 {
+      color: white; }
+
+#pic4 {
+  background-image: linear-gradient(rgba(16, 109, 179, 0.7), rgba(16, 109, 179, 0.7)), url(../img/bottles.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+  #pic4:hover {
+    background-image: url(../img/bottles.jpeg); }
+    #pic4:hover h2 {
+      color: white; }
+
+#iron_yard {
+  margin-right: 10px; }
+
+#nav_list {
+  list-style: none;
+  padding-left: 0;
+}
+  #nav_list li {
+    margin: 0;
+    flex: 1;
+    padding: 0 10px;
+    border-left: 1px solid #5E686F; }
+    #nav_list li:first-child {
+      border-left: none; }
+    #nav_list li a {
+      text-decoration: none; }
+
+.column_reverse {
+  flex-direction: column-reverse;
+}
+
+@media all and (min-width: 768px) {
+  #footer_images {
+    flex-direction: row;
+  }
+  .footer {
+    flex-direction: row;
+  }
+  #ad_link {
+    width: 100%;
+  }
+  #top_bar {
+    flex-direction: row;
+  }
+  #bar_right {
+    text-align: right;
+  }
+}
